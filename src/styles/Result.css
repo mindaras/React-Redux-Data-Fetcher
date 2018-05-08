@@ -18,7 +18,14 @@
   .result
   {
     display: block;
-    padding: 20px;
     margin: 40px 0 0;
+  }
+}
+@media screen and (max-width: 767px)
+{
+  .result
+  {
+    max-width: none;
+    padding: 20px;
   }
 }
